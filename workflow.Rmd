@@ -30,7 +30,7 @@ In groups of 2-4 discuss:
 
 This section is heavily influenced by [Jenny Bryan's great blog post on project based workflows.](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/)
 
-Sometimes this is the first line of an R Script or R markdown file.
+Sometimes this is the first line of an R Script or R Markdown file.
 
 ```r
 setwd("c:/really/long/file/path/to/this/directory)
@@ -129,7 +129,7 @@ This file path situation is a real pain. Is there an answer to the madness?
 
 The answer is yes!
 
-I highly recommend when you start on a new idea, new research project, paper. Anything that is new. It should start its life as an **rstudio project**. 
+I highly recommend when you start on a new idea, new research project, paper. Anything that is new. It should start its life as an **RStudio project**. 
 
 An rstudio project helps keep related work together in the same place. Amongst other things, they:
 
@@ -227,7 +227,7 @@ You can create an rstudio project by going to:
 
 file > new project > new directory > new project > name your project > create project.
 
-You can also click on the create project button in the top left corner
+You can also click on the create project button in the top left corner or "New Project" from the dropdown in the top right corner.
 
 ```{r rstudio-create-proj-1, echo = FALSE, fig.align = "center", out.width = "50%"}
 knitr::include_graphics(here::here("figs", "rstudio-create-proj-1.png"))
@@ -259,14 +259,14 @@ And click "create project".
 knitr::include_graphics(here::here("figs", "rstudio-create-proj-4.png"))
 ```
 
-D!-- TODO: need to update image? -->
+!-- TODO: need to update image? -->
 
-oDne!
+Done!
 
 ## Summary
 
 In this lesson we've:
 
 * Learnt what file paths are
-* How to setup an rstudio project
+* How to setup an RStudio project
 * How to construct full file paths with the `here` package
